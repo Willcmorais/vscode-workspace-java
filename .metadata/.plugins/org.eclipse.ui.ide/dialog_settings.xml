@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula02_guanabara"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\willb\eclipse-workspace\Projeto01_Logica"/>
+			<item value="C:\Users\willb\eclipse-workspace\primeira_aula"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula07_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula06_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula05_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula04b_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula04a_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\Interfaces"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula03_guanabara"/>
+			<item value="C:\Users\willb\eclipse-workspace\Exercicio3"/>
+			<item value="C:\Users\willb\eclipse-workspace\Exercicio2"/>
+			<item value="C:\Users\willb\eclipse-workspace\Exercicio1"/>
+			<item value="C:\Users\willb\eclipse-workspace\ex2"/>
+			<item value="C:\Users\willb\eclipse-workspace\ex1"/>
+			<item value="C:\Users\willb\eclipse-workspace\Array"/>
+			<item value="C:\Users\willb\eclipse-workspace\POO_Aula02_guanabara"/>
+			<item value="C:\Users\willb\Downloads\drive-download-20240227T014301Z-001\POO_Aula02_guanabara"/>
+			<item value="C:\Users\willb\Downloads\drive-download-20240227T014301Z-001\POO_Aula05_guanabara"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
