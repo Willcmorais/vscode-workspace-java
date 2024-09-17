@@ -1,0 +1,43 @@
+/*Encapsula as funcionalidades das operações matemáticas básicas: 
+soma, subtração, multiplicação e divisão. Ela mantém o estado do 
+resultado das operações realizadas até o momento.*/
+
+private class Operacoes {
+
+    // Variáveis
+    public double somar, sub, multi, div, result;
+
+    public double getSub(double numero) {
+        return this.result -= numero;
+    }
+
+    public void setSub(double sub) {
+        this.sub = sub;
+    }
+
+    public double getMulti(double numero) {
+        return this.result *= numero;
+    }
+
+    public void setMulti(double multi) {
+        this.multi = multi;
+    }
+
+    public void getDiv(double numero) {
+        if (numero != 0) {
+            this.result /= numero;
+        } else {
+            System.out.println("Erro: Divisão por zero.");
+        }
+    }
+
+    // Getter para o resultado
+    public double getResult() {
+        return result;
+    }
+
+    // Setter para o resultado
+    public void setResult(double result) {
+        this.result = result;
+    }
+}

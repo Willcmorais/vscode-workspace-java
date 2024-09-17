@@ -22,10 +22,10 @@ public class Calculadora {
                 operacoes.getSub(numero);
                 break;
             case "*":
-                operacoes.getMulti(numero);
+                operacoes.getMultir(numero);
                 break;
             case "/":
-                operacoes.getDiv(numero);
+                operacoes.dividir(numero);
                 break;
             default:
                 System.out.println("Operação inválida.");

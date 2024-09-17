@@ -19,13 +19,13 @@ public class Calculadora {
                 operacoes.getSomar(numero);
                 break;
             case "-":
-                operacoes.getSub(numero);
+                operacoes.getSubtrair(numero);
                 break;
             case "*":
-                operacoes.getMulti(numero);
+                operacoes.multiplicar(numero);
                 break;
             case "/":
-                operacoes.getDiv(numero);
+                operacoes.dividir(numero);
                 break;
             default:
                 System.out.println("Operação inválida.");

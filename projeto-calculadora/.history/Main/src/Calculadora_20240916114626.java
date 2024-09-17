@@ -1,31 +1,26 @@
-/*Controla a lógica da calculadora, aplicando as operações matemáticas
-por meio de uma instância da classe Operacoes. Não realiza operações
-diretamente, mas delega essa responsabilidade.*/
-
-public class Calculadora {
-
+public class Calculadora xte {
     private Operacoes operacoes;
 
     // Construtor inicializando com a instância de Operacoes
     public Calculadora(double numeroInicial) {
         this.operacoes = new Operacoes();
-        this.operacoes.setResult(numeroInicial);
+        this.operacoes.setResultado(numeroInicial);
     }
 
     // Método para realizar a operação com base no operador
     public void realizarOperacao(String operador, double numero) {
         switch (operador) {
             case "+":
-                operacoes.getSomar(numero);
+                operacoes.somar(numero);
                 break;
             case "-":
-                operacoes.getSub(numero);
+                operacoes.subtrair(numero);
                 break;
             case "*":
-                operacoes.getMulti(numero);
+                operacoes.multiplicar(numero);
                 break;
             case "/":
-                operacoes.getDiv(numero);
+                operacoes.dividir(numero);
                 break;
             default:
                 System.out.println("Operação inválida.");
@@ -34,7 +29,7 @@ public class Calculadora {
     }
 
     // Método para obter o resultado atual
-    public double getResult() {
-        return operacoes.getResult();
+    public double getResultado() {
+        return operacoes.getResultado();
     }
 }

@@ -16,16 +16,16 @@ public class Calculadora {
     public void realizarOperacao(String operador, double numero) {
         switch (operador) {
             case "+":
-                operacoes.getSomar(numero);
+                operacoes.somar(numero);
                 break;
             case "-":
-                operacoes.getSub(numero);
+                operacoes.subtrair(numero);
                 break;
             case "*":
-                operacoes.getMulti(numero);
+                operacoes.multiplicar(numero);
                 break;
             case "/":
-                operacoes.getDiv(numero);
+                operacoes.dividir(numero);
                 break;
             default:
                 System.out.println("Operação inválida.");

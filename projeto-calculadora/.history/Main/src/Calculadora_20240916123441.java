@@ -25,7 +25,7 @@ public class Calculadora {
                 operacoes.getMulti(numero);
                 break;
             case "/":
-                operacoes.getDiv(numero);
+                operacoes.dividir(numero);
                 break;
             default:
                 System.out.println("Operação inválida.");
